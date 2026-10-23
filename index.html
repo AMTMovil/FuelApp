@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
 
@@ -26,7 +26,8 @@
       top: 0;
       left: 0;
       width: 100vw;
-      height: 100vh;
+      height: 100vh;   /* Compatibilidad con navegadores antiguos */
+      height: 100dvh;  /* Altura visible real en móviles modernos */
       border: none;
       display: block;
     }
@@ -34,12 +35,10 @@
 </head>
 
 <body>
-
   <iframe
     src="https://script.google.com/macros/s/AKfycbxTf6DEUKBw07xN3-MfkNnPNYZbA229FAOFHXvZKRZbwYjYLYFCieGnFbJA_gubBEoYPA/exec"
     allow="geolocation *; fullscreen"
     allowfullscreen>
   </iframe>
-
 </body>
 </html>
